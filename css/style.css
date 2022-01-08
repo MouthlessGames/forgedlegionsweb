@@ -1,0 +1,286 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.icon-block {
+	padding: 0 15px;
+}
+
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+html, body {
+	height: 100%;
+	margin: 0 auto;
+}
+
+body {
+	font-family: 'Nunito', serif;
+	color: #999274;
+	background: rgb(141,61,61);
+	background: radial-gradient(circle, rgba(141,61,61,1) 0%, rgb(61 25 25) 100%);
+}
+
+nav {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 2;
+	border-bottom: 1px solid #B99D72;
+}
+
+.half-width {
+	width: 50%;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.circle {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	transition: all 0.15s ease;
+}
+
+.circle:hover {
+	-webkit-border-radius: 0%;
+	-moz-border-radius: 0%;
+	border-radius: 0%;
+}
+
+.box-shadow {
+	box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.49);
+}
+
+.bg-gradient {
+	background: #293138;
+	background: linear-gradient(#293138 0%, hsl(208deg 15% 13%) 100%);
+}
+
+nav ul a {
+	color: #d9d9d9;
+}
+
+a {
+	color: #cfcfcf;
+}
+
+footer a:hover,
+p a:hover {
+	text-decoration: underline;
+}
+
+#section_bg {
+	height: 500px;
+	background-image: url('../img/library_hero.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 64px;
+	background-color: #242424;
+	border-bottom: 1px solid #B99D72;
+}
+
+.btn {
+	background: #893838;
+}
+
+.btn:hover {
+	background: hsl(0deg 42% 44%);
+}
+
+.border-top {
+	border-top: 1px solid #B99D72;
+}
+
+.border-bottom {
+	border-bottom: 1px solid #B99D72;
+}
+
+#flag {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	max-width: 80%;
+	top: 125px
+}
+
+#trailer {
+	margin-top: 240px;
+	z-index: 3;
+	box-shadow: 0 0 2px 2px rgb(0 0 0 / 57%);
+	border-radius: 4px;
+	background: black;
+	max-width: 100%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	max-width: 80%;
+	top: 200px;
+	
+}
+
+#rays {
+	height: 800px;
+	background-image: url('../img/rays.png');
+	position: absolute;
+	margin-top: -20px;
+	opacity: 0.5;
+	width: 100%;
+	z-index: 1;
+}
+
+.page-footer {
+	border-top: 1px solid #B99D72;
+	padding: 60px 0 50px 0;
+}
+
+.page-footer h5 {
+	color: #cfcfcf;
+	margin-top: 0;
+}
+
+.page-footer a,
+.footer-copyright {
+	color: #a0a0a0;
+}
+
+h1,h2,h3,h4 {
+	color: hsl(0deg 0% 70%);
+	margin-top: 0;
+}
+
+.footer-copyright {
+	background: none !important;
+	font-size: 12px;
+}
+
+.section {
+	padding: 120px 0;
+	font-size: 18px;
+}
+
+.bg-gradient-red {
+	background: linear-gradient(hsl(0deg 40% 32%) 0%, hsl(0deg 40% 20%) 100%);
+}
+
+.row {
+	margin: 0;
+}
+
+.features img {
+	margin-bottom: 25px;
+}
+
+img.animated {
+	box-shadow: 1px 1px 0 2px hsl(0deg 0% 0% / 31%);
+	transform: scale(1);
+	transition: transform 0.35s ease, opacity 0.35s ease;
+	border-radius: 4px;
+	max-width: 100%;
+}
+
+.image-box {
+	position: relative;
+	margin: auto;
+	overflow: hidden;
+}
+
+.image-box img {
+	max-width: 100%;
+	border-radius: 10px;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+img.animated:hover {
+	transform: scale(1.025);
+	opacity: 0.85;
+}
+
+#readingbar {
+	position: fixed;
+	height: 5px;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 1;
+	background: rgb(170 170 170 / 15%);
+}
+
+#readingbar-progress {
+	background-color: #ba9b75;
+	width: 0;
+	height: 100%;
+	border-bottom: 2px solid hsl(33deg 33% 45% / 61%);
+}
+
+.cookiealert {
+	color: inherit !important;
+	padding: 10px !important;
+	background: #293138 !important;
+}
+
+.cookiealert button {
+	background-color: #007bff;
+	border-color: #007bff;
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	font-size: 1rem;
+	border-radius: 0.25rem;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.cookiealert button:hover {
+	color: #fff;
+	background-color: #0069d9;
+	border-color: #0062cc;
+}
+
+.wishlist-button i {
+	vertical-align: top;
+}
+.wishlist-button span {
+	vertical-align: super;
+	margin-left: 7px;
+}
+
+#social {
+	text-align: right;
+	font-size: 30px;
+}
+
+#social a {
+	margin-left: 10px;
+	transition: all 0.2s ease;
+}
+
+#social a:hover {
+	color: white;
+}
+
+#screenshots {
+	margin-top: 650px;
+}
